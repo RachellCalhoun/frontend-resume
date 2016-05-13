@@ -13,6 +13,9 @@ h6 {
   margin:0;
   font-family: "Roboto", sans-serif;
 }
+body {
+  background-color: #f3f3f3;
+}
 
 .clear-fix {
   overflow: auto;
@@ -66,8 +69,14 @@ h5 {
   font-style: italic;
   font-size: 14px;
   color: #999;
-  line-height: 16px;
-  float: left;
+  line-height: 16px;  
+}
+#workExperience, #projects, #education {
+  padding-bottom: 16px;
+}
+#projects {
+  background-color: white;
+  border-radius: 5px;
 }
 
 .location-text {
@@ -77,6 +86,12 @@ h5 {
   line-height: 16px;
   float: right;
 
+}
+.container {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  align:center;
 }
 
 p {
@@ -96,12 +111,12 @@ a {
   font-style: italic;
   font-size: 18px;
   color: #f3f3f3;
-  line-height: 28px;
 }
 
 #skills-h3 {
   color: #f5ae23;
   display: none;
+  padding-top: 2em;
 }
 
 .orange {
@@ -143,6 +158,7 @@ a {
 
 .center-content {
   padding: 2.5% 5%;
+  padding-bottom:0px;
 }
 
 ul {
@@ -151,20 +167,41 @@ ul {
 
 .biopic {
   float: left;
-  padding: 10px;
+  margin: 10px;
   width: 200px;
   display: none;
+  border-radius: 10px;
+  margin-right:2em;
 }
 
-img {
+/*img {
   padding: 10px;
-}
+}*/
 
 span {
   padding: 5px;
 }
 
 #lets-connect {
+  text-align: center;
+}
+.fullwidth {
+  width:100%;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+
+.projectimage {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.projtitle {
+  font-size: 2em;
   text-align: center;
 }
 
