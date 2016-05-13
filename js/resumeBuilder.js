@@ -112,44 +112,44 @@ var education ={
 		"degree": "BA",
 		"major": ["Spanish", "French"],
 		"dates": 2006,
-		"description": " some descriptions la la lala lala ",
+		"description": "  ",
 		"url": "http://wmu.edu"
 	}],
 	"onlineCourses": [{
 		"title": "An Introduction to Interactive Programming in Python",
 		"school": "Coursera",
 		"dates": 2014,
-		"description": " some descriptions la la lala lala ",
+		"description": "  ",
 		"url": "https://www.coursera.org/course/interactivepython"
 	}, {
 		"title": " Programming for Everybody (Python)",
 		"school": "Coursera",
 		"dates": 2014,
-		"description": " some descriptions la la lala lala ",
+		"description": "  ",
 		"url": "https://www.coursera.org/signature/certificate/95TNEQEV38"
 	}, {
 		"title": "Introduction to Computer Science and Programming Using Python",
 		"school": "Edx",
 		"dates": 2015,
-		"description": " some descriptions la la lala lala ",
+		"description": "  ",
 		"url": "https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6"
 	}, {
 		"title": "Using Python to ACcess Web Data",
 		"school": "Coursera",
 		"dates": 2015,
-		"description": " some descriptions la la lala lala ",
+		"description": "  ",
 		"url": "https://www.coursera.org/learn/python-network-data"
 	}, {
 		"title": "Intro to HTML/CSS",
 		"school": "Udacity",
 		"dates": 2016,
-		"description": " some descriptions la la lala lala ",
+		"description": "  ",
 		"url": "https://www.udacity.com/courses/ud304"
 	}, {
 		"title": "JavaScript Syntax",
 		"school": "Udacity",
 		"dates": 2016,
-		"description": " some descriptions la la lala lala ",
+		"description": "  ",
 		"url": "http://www.udacity.com/courses"
 	}]
 }
