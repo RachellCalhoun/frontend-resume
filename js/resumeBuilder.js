@@ -7,49 +7,56 @@ var work = {
 		"title": "Main Organizer",
 		"location": "Seoul, South Korea",
 		"dates": "07/2015 - Present",
-		"description": " I am the head organizer of Django Girls Seoul. We are a community that is positive and open and to all, especially women new to programming. With the help of my awesome support team, I organize regular weekly study meet-ups, code-camps, workshops, and other events. During our 2 month long Code Camp, I helped develop curriculum, contribute to our community site, coach members, and manage our non-profit project."
+		"description": " I am the head organizer of Django Girls Seoul. We are a community that is positive and open and to all, especially women new to programming. With the help of my awesome support team, I organize regular weekly study meet-ups, code-camps, workshops, and other events. During our 2 month long Code Camp, I helped develop curriculum, contribute to our community site, coach members, and manage our non-profit project.",
+		"url" : "https://djangogirls.org/"
 	},
 	{
 		"employer": "Django Girls",
 		"title": "Translations Co-manager",
-		"location": "The Web",
+		"location": " ",
 		"dates": "11/2015 - Present",
-		"description": " I joined the support team of Django Girls to facilitate other members in translating the Django Girls Tutorial. We use Crowdin, GitHub and GitBook."
+		"description": " I joined the support team of Django Girls to facilitate other members in translating the Django Girls Tutorial. We use Crowdin, GitHub and GitBook.",
+		"url" : "http://www.djangogirlsseoul.org/"
 	},
 	{
 		"employer": "KEDA",
 		"title": "EFL Instructor",
 		"location": "Incheon, South Korea",
 		"dates": "03/2014 - 03/2016",
-		"description": " "
+		"description": " ",
+		"url" : "#"
 	},
 	{
 		"employer": "Evan English School",
 		"title": "EFL Instructor & Head Teacher",
 		"location": "Seoul, South Korea",
 		"dates": "11/2008 - 02/2014",
-		"description": " "
+		"description": " ",
+		"url" : "#"
 	},
 	{
 		"employer": "GKI English School",
 		"title": "EFL Instructor",
 		"location": "Seoul, South Korea",
 		"dates": "08/2007-08/2008",
-		"description": "During my time as an EFL teacher I have acted as liaison between Korean and Native teachers. I developed and implemented appropriate curriculum, thorough lesson plans, organized syllabus, and effective discipline and reward systems. I also, created a converstaional practice program using video recording and regular phone calls with students. One program that was especially intersted was the pen-pal program I set up with a sister school in the US. The student's wrote and made videos to their pen-pals. I also planned and presented at events for the entire school."
+		"description": "During my time as an EFL teacher I have acted as liaison between Korean and Native teachers. I developed and implemented appropriate curriculum, thorough lesson plans, organized syllabus, and effective discipline and reward systems. I also, created a converstaional practice program using video recording and regular phone calls with students. One program that was especially intersted was the pen-pal program I set up with a sister school in the US. The student's wrote and made videos to their pen-pals. I also planned and presented at events for the entire school.",
+		"url" : "#"
 	},
 	{
 		"employer": "IndyMac Bank",
 		"title": "Customer Service Rep",
 		"location": "Kalamazoo, MI USA",
 		"dates": "01/2007 - 07/2007",
-		"description": " I handled servicing of home loans such as: taking payments, explaining details of contracts, account analysis, and soft sales."
+		"description": " I handled servicing of home loans such as: taking payments, explaining details of contracts, account analysis, and soft sales.",
+		"url" : "#"
 	},
 	{
 		"employer": "Townsend Insurance",
 		"title": "Customer Service Rep",
 		"location": "Kalamazoo, MI USA",
 		"dates": "07/2005 - 10/2006",
-		"description": " I gave customers insurance quotes, took payments, and handled any problems or questions with their accounts. I also served as a Spanish translator, facilitating communication between customers and agents."
+		"description": " I gave customers insurance quotes, took payments, and handled any problems or questions with their accounts. I also served as a Spanish translator, facilitating communication between customers and agents.",
+		"url" : "#"
 	}]
 }
 
@@ -198,7 +205,7 @@ function displayWork() {
 		for (job in work.jobs) {
 			$("#workExperience").append(HTMLworkStart);
 
-			var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
+			var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job].employer).replace("#", work.jobs[job].url);
 			var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
 			var formattedEmployerTitle = formattedEmployer + formattedTitle;
 			$(".work-entry:last").append(formattedEmployerTitle);
