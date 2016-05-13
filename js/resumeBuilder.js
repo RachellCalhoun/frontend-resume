@@ -49,7 +49,7 @@ var work = {
 		"title": "Customer Service Rep",
 		"location": "Kalamazoo, MI USA",
 		"dates": "07/2005 - 10/2006",
-		"description": " I gave customers insurance quotes, took payments, and handle any problems or questions with their accounts. I also served as a Spanish translator, facilitating communication between customers and agents. "
+		"description": " I gave customers insurance quotes, took payments, and handled any problems or questions with their accounts. I also served as a Spanish translator, facilitating communication between customers and agents."
 	}]
 }
 
