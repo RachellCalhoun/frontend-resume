@@ -57,7 +57,7 @@ var projects = {
 	"projects": [{
 		"title": "Portfolio",
 		"dates": "2015",
-		"url": "http://rachellcalhoun.pythonanywhere.com/",
+		"url": "http://rachellcalhoun.com/",
 		"description": "My personal portfolio and blog page using Python and Django for backend and HTML/CSS and bootstrap for frontend",
 		"images": ["images/portfolio.png"]
 
@@ -98,10 +98,10 @@ var bio = {
 		"twitterurl": "https://twitter.com/Rachell_Calhoun",
 		"location": "Seoul",
 		"blog": "Blog",
-		"blogurl": "http://rachellcalhoun.pythonanywhere.com/"
+		"blogurl": "http://rachellcalhoun.com/"
 		},
 	"welcomeMsg" : "Welcome to my world!",
-	"skills" : ["Django", "Web-Development", "Awesomeness", "Python", "Teaching","Javascript"],
+	"skills" : ["Django", "Web-Development", "Community Organizing", "Python", "Teaching","Javascript"],
 	"bioPic" : "images/rachell.jpg"
 }
 
