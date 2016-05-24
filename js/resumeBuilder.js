@@ -39,7 +39,7 @@ var work = {
 		"title": "EFL Instructor",
 		"location": "Seoul, South Korea",
 		"dates": "08/2007-08/2008",
-		"description": "During my time as an EFL teacher I have acted as liaison between Korean and Native teachers. I developed and implemented appropriate curriculum, thorough lesson plans, organized syllabus, and effective discipline and reward systems. I also, created a converstaional practice program using video recording and regular phone calls with students. One program that was especially intersted was the pen-pal program I set up with a sister school in the US. The student's wrote and made videos to their pen-pals. I also planned and presented at events for the entire school.",
+		"description": "During my time as an EFL teacher I have acted as liaison between Korean and Native teachers. I developed and implemented appropriate curriculum, thorough lesson plans, organized syllabus, and effective discipline and reward systems. I also, created a conversational practice program using video recording and regular phone calls with students. One program that was especially successful was the pen-pal program I set up with a sister school in the US. The student's wrote and made videos to their pen-pals. I also planned and presented at events for the entire school.",
 		"url" : "#"
 	},
 	{
