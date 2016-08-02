@@ -63,17 +63,17 @@ var work = {
 var projects = {
 	"projects": [{
 		"title": "Portfolio",
-		"dates": "2015",
+		"dates": "2016",
 		"url": "http://rachellcalhoun.com/",
 		"description": "My personal portfolio and blog page using Python and Django for backend and HTML/CSS and bootstrap for frontend",
-		"images": ["images/portfolio.png"]
+		"images": ["images/portfolio2016.png"]
 
 	},
 	{
 		"title": "Django Girls Seoul",
 		"dates": "2015 - 2016",
 		"description": "Organizer of Django Girls Seoul, a community to inspire more women to fall in love with programming. We organized workshops, screening events, code camps and worked on non-profits. ",
-		"images": ["http://djangogirlscodecamp.github.io/img/event.png"],
+		"images": ["images/codecampsite1.png"],
 		"url": ["http://djangogirlscodecamp.github.io/"]
 	},
 	{
@@ -84,10 +84,10 @@ var projects = {
 		"url": "http://craftsnstuff.pythonanywhere.com/"
 	},
 	{
-		"title": "Light and Leadership Iniciative Website",
+		"title": "Light and Leadership Initiative Website",
 		"dates": "2016",
-		"description": "I oversaw the open sourced creation and collaberation of a django site for a non-profit Peruvian school.",
-		"images": ["images/lliourstory.png"],
+		"description": "I oversaw the open sourced creation and collaboration of a django site for a non-profit Peruvian school.",
+		"images": ["images/llihome.png"],
 		"url": "http://lightandleadership.pythonanywhere.com"
 	}]
 }
@@ -108,7 +108,7 @@ var bio = {
 		"blogurl": "http://rachellcalhoun.com/"
 		},
 	"welcomeMsg" : "Welcome to my world!",
-	"skills" : ["Django", "Web-Development", "Community Organizing", "Python", "Teaching","Javascript"],
+	"skills" : ["Django", "Web-Development", "Community Organizing", "Python", "Teaching","Git"],
 	"bioPic" : "images/rachell.jpg"
 }
 
@@ -126,39 +126,51 @@ var education ={
 		"title": "An Introduction to Interactive Programming in Python",
 		"school": "Coursera",
 		"dates": 2014,
-		"description": "  ",
+		"description": "An introduction to the basic elements of programming (such as expressions, conditionals, and functions) and then use these elements to create simple interactive applications such as a digital stopwatch, arcade game etc.",
 		"url": "https://www.coursera.org/course/interactivepython"
 	}, {
 		"title": " Programming for Everybody (Python)",
 		"school": "Coursera",
 		"dates": 2014,
-		"description": "  ",
-		"url": "https://www.coursera.org/signature/certificate/95TNEQEV38"
+		"description": " the basics of how one constructs a program from a series of simple instructions in Python.",
+		"url": "https://www.coursera.org/learn/python"
 	}, {
 		"title": "Introduction to Computer Science and Programming Using Python",
 		"school": "Edx",
 		"dates": 2015,
-		"description": "  ",
+		"description": "Introduction to Computer Science and Programming Using Python, and Introduction to Computational Thinking and Data Science.",
 		"url": "https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6"
 	}, {
-		"title": "Using Python to ACcess Web Data",
+		"title": "Using Python to Access Web Data",
 		"school": "Coursera",
 		"dates": 2015,
-		"description": "  ",
+		"description": "Scrape, parse, and read web data as well as access data using web APIs. Work with HTML, XML, and JSON data formats in Python.",
 		"url": "https://www.coursera.org/learn/python-network-data"
 	}, {
 		"title": "Intro to HTML/CSS",
 		"school": "Udacity",
 		"dates": 2016,
-		"description": "  ",
+		"description": "Convert digital design mockups into static web pages and build a responsive portfolio site to showcase  work.",
 		"url": "https://www.udacity.com/courses/ud304"
 	}, {
-		"title": "JavaScript Syntax",
+		"title": "JavaScript Basics",
 		"school": "Udacity",
 		"dates": 2016,
-		"description": "  ",
-		"url": "http://www.udacity.com/courses"
-	}]
+		"description": "Learned JavaScript syntax and coding conventions that web developers use to create interactive and dynamic websites while creating an online résumé for a portfolio.",
+		"url": "https://www.udacity.com/course/javascript-basics--ud804"
+	}, {
+		"title": "Responsive Web Design Fundamentals",
+		"school": "Udacity",
+		"dates": 2016,
+		"description": "Strategies for developing websites that look great on every device.",
+		"url": "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"
+	}, {
+		"title": "Intro to JQuery",
+		"school": "Udacity",
+		"dates": 2016,
+		"description": "Access and modify the DOM using jQuery.",
+		"url": "https://www.udacity.com/course/intro-to-jquery--ud245"
+	},]
 }
 
 function displayBio() {
