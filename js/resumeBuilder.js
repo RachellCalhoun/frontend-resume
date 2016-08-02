@@ -103,7 +103,7 @@ var bio = {
 		"githuburl": "https://github.com/RachellCalhoun",
 		"twitter": "@Rachell_Calhoun",
 		"twitterurl": "https://twitter.com/Rachell_Calhoun",
-		"location": "Seoul",
+		"location": "USA",
 		"blog": "Blog",
 		"blogurl": "http://rachellcalhoun.com/"
 		},
