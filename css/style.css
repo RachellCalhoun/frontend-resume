@@ -14,13 +14,14 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: #f3f3f3;
+  background-color: #A50048;
 }
 
 .clear-fix {
   overflow: auto;
 }
 
+.skills-detail,
 .education-entry,
 .work-entry,
 .project-entry {
@@ -29,7 +30,8 @@ body {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  /*color: #f5a623;*/
+  color: white;
   line-height: 48px;
   display: inline;
 }
@@ -69,7 +71,7 @@ h5 {
   font-style: italic;
   font-size: 14px;
   color: #999;
-  line-height: 16px;  
+  line-height: 16px;
 }
 #workExperience, #projects, #education {
   padding-bottom: 16px;
