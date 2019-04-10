@@ -15,7 +15,7 @@ var work = {
 		"title": "Main Organizer",
 		"location": "Seoul, South Korea",
 		"dates": "07/2015 - 07/2016",
-		"url": "http://www.djangogirlsseoul.org/",
+		"url": "https://github.com/DjangoGirlsSeoul/dgrsvpsite",
 		"description": " I was the head organizer of Django Girls Seoul. We are a community that is positive and open and to all, especially women new to programming. With the help of my awesome support team, I organize regular weekly study meet-ups, code-camps, workshops, and other events. During our 2 month long Code Camp, I helped develop curriculum, contribute to our community site, coach members, and manage our non-profit project."
 	},
 	{
