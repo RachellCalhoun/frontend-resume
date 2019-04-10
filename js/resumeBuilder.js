@@ -35,7 +35,7 @@ var projects = {
 		"dates": "Django | 2016",
 		"description": "Volunteer project for a non-profit community center in Peru. Almost everything is editable on the admin page, including: content, plugins, menu, footer, colors and layout. Includes English and Spanish version of the same app on the site.",
 		"images": ["images/lliproject.png"],
-		"url": "http://lightandleadership.org"
+		"url": "https://www.lightandleadership.org/"
 	},
 	{
 		"title": "GiveMore",
@@ -49,14 +49,14 @@ var projects = {
 		"dates": "JS, MDL, FullCalendar, Django | 2015 - 2016",
 		"description": "Home page is expanded off prebuilt JS layout and shows curriculum, members work, and sponsor information. Event page shows monthly events, and detailed views. Logged in users can rsvp and see a list of other members who rsvped. I helped with design and front-end using Bootstrap. On the backend I worked on displaying RSVP list. ",
 		"images": ["images/codecampsite1.png"],
-		"url": ["http://djangogirlscodecamp.github.io/"]
+		"url": ["https://github.com/DjangoGirlsSeoul/djangogirlscodecamp.github.io"]
 	},
 	{
 		"title": "Udadak",
 		"dates": "Django | 2016",
 		"description": "A Django site for a cat hotel. It includes login/logout, Q&A for members, admin can post notices, upload images and text about hotel(or cats!), and add flatpages. Text editor on admin is django-tinymce, widget is used as well. Hotel Gallery images use JS modals to pop out enlarged photos. ",
 		"images": ["images/udadak.png"],
-		"url": ["http://djangogirlscodecamp.github.io/"]
+		"url": ["http://udadak.pythonanywhere.com/"]
 	},
 	{
 		"title": "Crafts N Stuff",
